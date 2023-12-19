@@ -1,6 +1,6 @@
 .container{
     display: grid;
-    grid-template-columns: 400px auto;
+    grid-template-columns: 25% auto;
     height: 100vh;
     align-items: center;
 }
@@ -36,6 +36,12 @@
 }
 
 .social img{
-    width: 130px;
+    width: 30%;
 }
 
+.social{
+    display: flex;
+    align-items: center; /* Centra verticalmente il contenuto all'interno di .info */
+    justify-content: center; /* Centra orizzontalmente il contenuto */
+    flex-direction: column;
+}
