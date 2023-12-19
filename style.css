@@ -1,0 +1,41 @@
+.container{
+    display: grid;
+    grid-template-columns: 400px auto;
+    height: 100vh;
+    align-items: center;
+}
+
+.img_profile {
+    border-radius: 10%;
+    width: 100%;
+}
+
+.info{
+    background-color: yellow;
+    height: 100%;
+    display: flex;
+    align-items: center; /* Centra verticalmente il contenuto all'interno di .info */
+    justify-content: center; /* Centra orizzontalmente il contenuto */
+    flex-direction: column;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-style: dotted;
+}
+
+.container-social{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 45% 45%;
+    text-align: center;
+    gap: 10px;
+}
+.title{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: top;
+}
+
+.social img{
+    width: 130px;
+}
+
